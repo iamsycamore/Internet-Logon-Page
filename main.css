@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #FFFFCC;
+} 
+
+/* HEADING ONE */
+.heading-one{
+    font-size: 18px;
+    height: 30px;
+    background-color: #800000;
+    color: #FCFB9D;
+    text-align: center;
+    margin: 0px 5px 10px 5px;
+}
+
+/* HEADING TWO */
+.heading-two{
+    font-size: 18px;
+    font-weight: bold;
+    width: fit-content;
+    background-color: #800000;
+    color: #FCFB9D;
+    text-align: center;
+    padding: 0px 5px;
+    margin: 0px 5px 10px 5px;
+}
+
+.heading-one span {
+    color: red;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+span:hover {
+    border-bottom: 1px dotted #fff;
+}
+
+table a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* HEADING THREE */
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    color: #800000;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+/* START OF FIRST COLUMN STYLE */
+/* First table column */
+#column-one {
+    display: block;
+}
+
+table, th, td {
+    border: 2px solid #800000;
+    width: 350px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+
+thead {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* table 1 */
+#table-1{
+    text-align: center;
+    color: #800000;
+    font-size: 16px;
+}
+
+#table-1 a {
+    color: #800000;
+    cursor: pointer;
+}
+
+#table-1 a:hover {
+    border-bottom: 1px solid #800000;
+}
+
+
+#font {
+    color: #800000;
+    font-size: 18px;
+} 
+
+/* table 2 */
+#table-2{
+    color: #800000;
+    font-size: 14px;
+}
+
+/* START OF COLUMN TWO STYLE*/
+/* LOGO STYLE */
+img {
+    width: 200px;
+    height: 250px;
+}
+
+form {
+    background-color: #FFFFCC;
+    border: 3px solid #800000;
+    text-align: center;
+    width: 200px;
+}
+
+/* style for the anchor tag on the form */
+form p a {
+    color: #000;
+}
+
+/* style for the input field int he form */
+input[type="text"],
+input[type="password"]
+{
+    width: 70px;
+    height: 20px;
+    border: 1px solid #f3f34c;
+    background-color: rgb(235, 232, 232);
+    cursor: text;
+}
+
+input[type="text"]:active {
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+input[type="password"]:active {
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+/* style for the OK BUTTON in the form */
+button {
+    color: #FFFFCC;
+    background-color: #800000;
+    border: none;
+    padding: 5px;
+}
+
+/* style for the whole second column */
+#column-two {
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #800000;
+    width: 200px;
+    display: block;
+    padding: 50px 30px 20px 30px;
+    margin: 5px;
+}
+
+/* style for the whole third column */
+#column-three {
+    color: #800000;
+}
+
+#list-width {
+    width: 5%;
+}
+
+/* Style for footer */
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: #800000;
+}
